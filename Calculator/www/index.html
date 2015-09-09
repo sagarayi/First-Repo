@@ -29,46 +29,52 @@
       </ion-header-bar>
       <ion-content>
         
-        <div class="card">
-          <div class="item item-text-wrap">
-            0
-          </div>
+        <div class="card" >
+          <div class="item item-text-wrap" id="display">
+            <a id="exp1">
+              </a>
+             <a id="exp2">
+              </a>
+              <a id="exp3">
+              </a>
+            </div>
         </div>
 
          <div class="button-bar">
-          <a class="button">C</a>
-          <a class="button"><i class="ion-backspace-outline"></i></a>
-          <a class="button"><i class="ion-close-round"></i></a>
-           <a class="button"><i class="ion-plus-round"></i></a>
+          <a class="button" onclick="calculator('-2')">C</a>
+          <a class="button" onclick="calculator('-1')"><i class="ion-backspace-outline"></i></a>
+          <a class="button" onclick="calculator('11')"><i class="ion-close-round"></i></a>
+           <a class="button" onclick="calculator('12')"><i class="ion-plus-round"></i></a>
         </div>
         <div class="button-bar">
-          <a class="button">1</a>
-          <a class="button">2</a>
-          <a class="button">3</a>
-           <a class="button">AC</a>
+          <a class="button" onclick="calculator('1')">1</a>
+          <a class="button" onclick="calculator('2')">2</a>
+          <a class="button" onclick="calculator('3')">3</a>
+           <a class="button" onclick="calculator('13')"><i class="ion-minus-round"></i></a>
         </div>
        
         <div class="button-bar">
-          <a class="button">4</a>
-          <a class="button">5</a>
-          <a class="button">6</a>
-           <a class="button"><i class="ion-minus-round"></i></a>
+          <a class="button" onclick="calculator('4')">4</a>
+          <a class="button" onclick="calculator('5')">5</a>
+          <a class="button" onclick="calculator('6')">6</a>
+           <a class="button" onclick="calculator('14')">/</a>
         </div>
         <div class="button-bar">
-          <a class="button">7</a>
-          <a class="button">8</a>
-          <a class="button">9</a>
-           <a class="button">/</a>
+          <a class="button" onclick="calculator('7')">7</a>
+          <a class="button" onclick="calculator('8')">8</a>
+          <a class="button" onclick="calculator('9')">9</a>
+           <a class="button" onclick="calculator('15')">=</a>
         </div>
         <div class="button-bar">
           <a class="button">.</a>
-          <a class="button">0</a> 
+          <a class="button" onclick="calculator('0')">0</a> 
           <a class="button"></a>       
-           <a class="button">=</a>
+           <a class="button" ></a>
         </div>
 
 
       </ion-content>
     </ion-pane>
   </body>
+<a id="outer"> </a>
 </html>
