@@ -80,6 +80,12 @@ function calculator(input)
       res=document.getElementById("exp3").innerHTML; 
       res=parseInt(res/10);
       op2=res;
+      if(op2==0)
+      {
+        op2=null;
+        sym=null;
+        switched=0;
+      }
       display();
     } 
   }
